@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/studentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Student"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/FactSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Fact Speed "
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/speedSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Select Default"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operation Of Interest"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/operations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Operation"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/studenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Settings"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="3dip" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+                <TextView
+                    android:id="@+id/allFacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="All Facts"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/selectAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+
+                <TextView
+                    android:id="@+id/ones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Ones"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/selectOnes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/twos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Twos"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/selectTwos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5" />
+
+
+        <TextView
+            android:id="@+id/threes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Threes"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectthrees"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/fours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Fours"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectFours"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+
+        <TextView
+            android:id="@+id/fives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Fives"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectFives"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/Sixs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Sixs"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectSixs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+
+        <TextView
+            android:id="@+id/sevens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Sevens"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectSevens"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/eights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Eights"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectEights"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+
+
+        <TextView
+            android:id="@+id/nines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Nines"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/selectNines"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/startDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dates to be Evaluated"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/beginEval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evaluation Start Date: "
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/editTextStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Begin"
+            android:inputType="date"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/endEval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Evaluation End Date: "
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/editTextEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="End Date"
+            android:inputType="date"
+            android:textSize="28sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Evaluate Range"
+        android:textColor="@android:color/white"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+</LinearLayout>

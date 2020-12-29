@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="false"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="Timed Facts"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Addition"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".125"
+        android:background="@color/black"
+        android:text="@string/addition"
+        android:textColor="@color/red"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Subtraction"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".125"
+        android:background="@color/black"
+        android:text="@string/Subtract"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Multiplication"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".125"
+        android:background="@color/black"
+        android:text="@string/multiplication"
+        android:textColor="@color/yellow"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Division"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".125"
+        android:background="@color/black"
+        android:text="@string/divide"
+        android:textColor="@color/lightblue"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

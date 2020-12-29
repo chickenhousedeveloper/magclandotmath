@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.chickenhouse.mathfacts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="magclan .math"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Multiplication"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".Division"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".Subtraction"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".Addition"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".results"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".divresults"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            </activity>
+        <activity android:name=".newLogin"
+            android:parentActivityName=".adminHomePage"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            </activity>
+        <activity android:name=".sendEmail"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.chickenhouse.mathfacts.MainActivity"/>
+        </activity>
+        <activity android:name=".Progress"
+            android:parentActivityName=".adminHomePage"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+        <activity android:name=".createAdminActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+        <activity android:name=".adminHomePage"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+        <activity android:name=".fdbkEmail"
+            android:parentActivityName=".adminHomePage"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+        <activity android:name=".InAppPurchaseActivity" />
+        <receiver android:name="com.amazon.device.iap.ResponseReceiver"
+            android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" >
+            <intent-filter>
+                <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
